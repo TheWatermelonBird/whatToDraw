@@ -1,3 +1,3 @@
 # whatToDraw
 A simple button that displays a random item from the list of the items to draw
-thewatermelonbird.github.io/whatToDraw/ 
+http://thewatermelonbird.github.io/whatToDraw/ 
