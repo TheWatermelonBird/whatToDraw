@@ -402,18 +402,9 @@ var spis = new Array (
 )
 
 button.onclick = function(event) {
-	// var oldCheck = document.getElementById('new')
-	// if (oldCheck != null) {
-	//    main.removeChild(oldCheck)
-    // }
 	function getRandomInt() {
        return Math.floor(Math.random() * 400);
     }
     var parent = document.getElementById('message');    
     parent.innerHTML = spis[getRandomInt()];
-    // var cont = document.getElementById('button');
-    // var newP = parent.createElement('p');
-    // newP.id = "new";
-    // newP.innerHTML = spis[getRandomInt()];
-    // main.insertBefore(newP, cont);
 }
