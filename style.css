@@ -1,0 +1,77 @@
+@import "http://webfonts.ru/import/engine.css";
+
+body { 
+	background-image: url("http://s8.hostingkartinok.com/uploads/images/2015/10/ff41d369fab6f9d6a3d71fee20e1e8a5.png");
+  background-position: fixed;
+  text-align: center;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  align-content: center;
+  overflow: auto;
+  flex-direction: column;
+}
+
+.ghost-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 100px;
+  font-size: 2.5em;
+  outline: none;
+  font-family: 'Engine';
+  display: block;
+  width: 350px;
+  height: 90px;
+  line-height: 90px;
+  color: #47A3A3;
+  text-decoration: none;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #47A3A3;
+  border-color: #47A3A3;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+#message {
+  font-family: 'Engine';
+  top: -100px;
+  font-size: 24px;
+}
+p {
+  display: inline;
+  font-family: 'Engine';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+a:link { 
+  text-decoration: none;
+} 
+a:visited { 
+  text-decoration: none; 
+  color: black;
+} 
+a:active { 
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #47A3A3;
+} 
